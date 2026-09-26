@@ -1,0 +1,9 @@
+{
+  "page": 1,
+  "pages": 2,
+  "results": 3,
+  "data": [
+    {"id": 1, "domain": "other.com", "type": "master", "status": "active", "soa_email": "test@other.com"},
+    {"id": 2, "domain": "unit.tests", "type": "master", "status": "active", "soa_email": "test@unit.tests"}
+  ]
+}

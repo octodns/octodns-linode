@@ -1,0 +1,8 @@
+{
+  "page": 2,
+  "pages": 2,
+  "results": 3,
+  "data": [
+    {"id": 3, "domain": "sub.unit.tests", "type": "master", "status": "active", "soa_email": "test@sub.unit.tests"}
+  ]
+}

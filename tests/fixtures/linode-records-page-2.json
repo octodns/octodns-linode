@@ -1,0 +1,18 @@
+{
+  "page": 2,
+  "pages": 2,
+  "results": 22,
+  "data": [
+    {"id": 22, "type": "CNAME", "name": "included", "target": "unit.tests", "ttl_sec": 3600, "priority": null, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 12, "type": "MX", "name": "mx", "target": "smtp-3.unit.tests", "priority": 30, "ttl_sec": 300, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 13, "type": "MX", "name": "mx", "target": "smtp-4.unit.tests", "priority": 10, "ttl_sec": 300, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 14, "type": "PTR", "name": "ptr", "target": "foo.bar.com", "ttl_sec": 300, "priority": null, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 15, "type": "TXT", "name": "txt", "target": "Bah bah black sheep", "ttl_sec": 3600, "priority": null, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 16, "type": "TXT", "name": "txt", "target": "have you any wool.", "ttl_sec": 3600, "priority": null, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 17, "type": "TXT", "name": "txt", "target": "v=DKIM1;k=rsa;s=email;h=sha256;p=A/kinda+of/long/string+with+numb3rs", "ttl_sec": 3600, "priority": null, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 18, "type": "NS", "name": "under", "target": "ns1.unit.tests", "ttl_sec": 3600, "priority": null, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 19, "type": "NS", "name": "under", "target": "ns2.unit.tests", "ttl_sec": 3600, "priority": null, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 20, "type": "A", "name": "www", "target": "2.2.3.6", "ttl_sec": 300, "priority": null, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 21, "type": "A", "name": "www.sub", "target": "2.2.3.6", "ttl_sec": 300, "priority": null, "weight": null, "port": null, "service": null, "protocol": null, "tag": null}
+  ]
+}

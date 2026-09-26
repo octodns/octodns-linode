@@ -1,0 +1,18 @@
+{
+  "page": 1,
+  "pages": 2,
+  "results": 21,
+  "data": [
+    {"id": 1, "type": "A", "name": "", "target": "1.2.3.4", "ttl_sec": 300, "priority": null, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 2, "type": "A", "name": "", "target": "1.2.3.5", "ttl_sec": 300, "priority": null, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 3, "type": "CAA", "name": "", "target": "ca.unit.tests", "tag": "issue", "ttl_sec": 3600, "priority": null, "weight": null, "port": null, "service": null, "protocol": null},
+    {"id": 4, "type": "SRV", "name": "", "target": ".", "priority": 0, "weight": 0, "port": 0, "service": "imap", "protocol": "tcp", "ttl_sec": 3600, "tag": null},
+    {"id": 5, "type": "SRV", "name": "", "target": ".", "priority": 0, "weight": 0, "port": 0, "service": "pop3", "protocol": "tcp", "ttl_sec": 3600, "tag": null},
+    {"id": 6, "type": "SRV", "name": "", "target": "foo-1.unit.tests", "priority": 10, "weight": 20, "port": 30, "service": "srv", "protocol": "tcp", "ttl_sec": 3600, "tag": null},
+    {"id": 7, "type": "SRV", "name": "", "target": "foo-2.unit.tests", "priority": 12, "weight": 20, "port": 30, "service": "srv", "protocol": "tcp", "ttl_sec": 3600, "tag": null},
+    {"id": 8, "type": "AAAA", "name": "aaaa", "target": "2601:644:500:e210:62f8:1dff:feb8:947a", "ttl_sec": 3600, "priority": null, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 9, "type": "CNAME", "name": "cname", "target": "unit.tests", "ttl_sec": 300, "priority": null, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 10, "type": "MX", "name": "mx", "target": "smtp-1.unit.tests", "priority": 40, "ttl_sec": 300, "weight": null, "port": null, "service": null, "protocol": null, "tag": null},
+    {"id": 11, "type": "MX", "name": "mx", "target": "smtp-2.unit.tests", "priority": 20, "ttl_sec": 300, "weight": null, "port": null, "service": null, "protocol": null, "tag": null}
+  ]
+}
